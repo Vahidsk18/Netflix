@@ -1,0 +1,446 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(bck2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-x: hidden;
+
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90vw;
+    margin: auto;
+    gap: 49vw;
+    padding: 20px;
+}
+
+.btn1 {
+
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.btnE {
+    color: aliceblue;
+    padding: 4px 27px;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    background-color: rgba(36, 34, 34, 0.733);
+    border-radius: 5px;
+}
+
+.btnS {
+    padding: 4px 20px;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    background-color: rgba(226, 26, 26, 0.973);
+    color: white;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.btnS:hover {
+    background-color: rgba(197, 10, 10, 0.856);
+    color: aliceblue;
+}
+
+.para {
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    top: 28vh;
+    font-size: 1.7rem;
+    font-weight: 100;
+
+}
+
+h2 {
+    color: white;
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 400;
+    padding: 14px;
+}
+
+h3 {
+    color: white;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 200;
+    padding: 14px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 28vh;
+    gap: 0.5vw;
+
+}
+
+.input {
+    padding: 14px 88px;
+    background-color: rgba(78, 69, 69, 0.192);
+    /* border: white; */
+
+}
+
+::placeholder {
+    color: rgba(231, 220, 220, 0.801);
+    opacity: 1;
+    /* Firefox */
+}
+
+.but {
+    padding: 14px 40px;
+    font-size: large;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.but:hover {
+    color: white;
+    background-color: rgba(197, 10, 10, 0.856);
+
+}
+
+.line1 {
+    /* height: 9px;
+    width: 100%; */
+    background-color: rgba(40, 40, 44, 0.945);
+    position: relative;
+    top: 69.7vh;
+
+}
+
+.rect1 {
+    height: 70vh;
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+}
+
+.rect1 img {
+
+    position: absolute;
+    top: 6.7vh;
+    right: 14vw;
+}
+
+.rect1 video {
+    position: absolute;
+    top: 16.1vh;
+    right: 18.1vw;
+
+}
+
+.rect1text {
+    position: absolute;
+    top: 135vh;
+    left: 10vw;
+    color: white;
+    /* background-color: blue; */
+    font-size: 2.1rem;
+    font-weight: 100;
+}
+
+.rect2 {
+    height: 70vh;
+    position: relative;
+    top: 68vh;
+    background-color: black;
+
+}
+
+.imgtwopoint {
+    display: flex;
+    height: 92px;
+    width: 290px;
+    position: relative;
+    left: 121px;
+    bottom: 122px;
+    border-radius: 14px;
+    background-color: black;
+
+}
+
+.imgtwopoint img {
+    height: 84px;
+    padding: 3.5px 8px;
+}
+
+.rectwopoint {
+    display: flex;
+    flex-direction: column;
+}
+
+.imgtwopoint h4 {
+    padding: 2px;
+    color: white;
+}
+
+.imgtwopoint h5 {
+
+    color: rgb(33, 12, 221);
+}
+
+.rect2text h1 {
+    position: relative;
+    left: 41vw;
+    bottom: 66vh;
+    font-size: 3.5rem;
+    color: rgb(255, 255, 255);
+
+}
+
+.rect2text h2 {
+    position: relative;
+    left: 40vw;
+    bottom: 66vh;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+
+}
+
+.line3 {
+    /* height: 9px;
+    width: 100%; */
+    background-color: rgba(40, 40, 44, 0.945);
+    position: relative;
+    top: 67.7vh;
+
+
+}
+
+.rect3 {
+    height: 70vh;
+    /* display: flex;
+    justify-content: flex-end; */
+    background-color: black;
+}
+
+.rect3 img {
+
+    position: absolute;
+    top: 15.7vh;
+    right: 14vw;
+    z-index: 1;
+    object-fit: cover;
+    overflow-clip-margin: content-box;
+
+}
+
+.rect3 video {
+    position: relative;
+    left: 59.2vw;
+    height: 220px;
+    top: 16vh;
+    /* object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip; */
+}
+
+.rect3text {
+    position: absolute;
+    top: 272vh;
+    left: 10vw;
+    color: white;
+    /* background-color: blue; */
+    font-size: 2.1rem;
+    font-weight: 100;
+}
+
+.rect4 {
+    height: 73vh;
+    position: relative;
+    top: 64vh;
+    background-color: black;
+
+}
+
+.rect4 img {
+    position: relative;
+    left: 8vw;
+    height: 223px;
+    top: 12vh;
+    overflow: hidden;
+}
+
+.rect4text {
+    position: absolute;
+    top: 337vh;
+    left: 45vw;
+    color: white;
+    /* background-color: blue; */
+    font-size: 1.9rem;
+    font-weight: 100;
+
+}
+
+footer {
+    position: relative;
+    height: 140vh;
+    top: 64vh;
+    background-color: rgb(2, 2, 2);
+}
+
+.footer {
+    padding: 29px;
+    gap: 13px;
+}
+
+.footer span {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 3.7rem;
+
+
+}
+
+.fotbox {
+    height: 60px;
+    width: 80vw;
+    /* max-width: 80vw; */
+    margin: auto;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(155, 145, 145);
+
+}
+
+.fotbox h3 {
+    color: white;
+}
+
+.fotbox1 {
+    height: 60px;
+    cursor: pointer;
+    width: 80vw;
+    /* max-width: 80vw; */
+    margin: auto;
+    padding: 14px;
+    background-color: rgb(46, 44, 44)
+        /* gap: 5px; */
+}
+
+.fotbox2 {
+    height: 60px;
+    width: 80vw;
+    cursor: pointer;
+    /* max-width: 80vw; */
+    margin: auto;
+    padding: 14px;
+    background-color: rgb(46, 44, 44)
+        /* gap: 5px; */
+}
+
+.fotbox3 {
+    height: 60px;
+    width: 80vw;
+    /* max-width: 80vw; */
+    margin: auto;
+    padding: 14px;
+    cursor: pointer;
+    background-color: rgb(46, 44, 44)
+        /* gap: 5px; */
+}
+
+.fotbox4 {
+    height: 60px;
+    width: 80vw;
+    /* max-width: 80vw; */
+    margin: auto;
+    padding: 14px;
+    cursor: pointer;
+    background-color: rgb(46, 44, 44)
+        /* gap: 5px; */
+}
+
+.fotbox5 {
+    height: 60px;
+    width: 80vw;
+    /* max-width: 80vw; */
+    margin: auto;
+    padding: 14px;
+    cursor: pointer;
+    background-color: rgb(46, 44, 44)
+        /* gap: 5px; */
+}
+
+.fotbox6 {
+    height: 60px;
+    width: 80vw;
+    /* max-width: 80vw; */
+    margin: auto;
+    padding: 14px;
+    cursor: pointer;
+    background-color: rgb(46, 44, 44)
+        /* gap: 5px; */
+}
+
+.fotbox1:hover {
+    background-color: #645a5a
+}
+
+.fotbox2:hover {
+    background-color: #645a5a
+}
+
+.fotbox3:hover {
+    background-color: #645a5a
+}
+
+.fotbox4:hover {
+    background-color: #645a5a
+}
+
+.fotbox5:hover {
+    background-color: #645a5a
+}
+
+.fotbox6:hover {
+    background-color: #645a5a
+}
+
+/* foot2 */
+.foot2 {
+ 
+    position: absolute;
+    top: 110vh;
+    left: 14vw;
+}
+
+
+.foot2 h2 {
+    color:white;
+ 
+}
+.boxlast{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 92vh;
+    gap: 0.5vw;
+
+}
